@@ -40,6 +40,11 @@
   margin-top: 20rem;
 }
 
+
+.footer_background_color{
+  background-color: #252b42;
+}
+
 @media only screen and (max-width: 760px) {
   .header-content {
     flex-direction: column;

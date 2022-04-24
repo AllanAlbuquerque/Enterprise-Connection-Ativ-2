@@ -41,6 +41,14 @@
   color: #fff !important;
 }
 
+.vw-text-active {
+  color: #f2f2f2;
+}
+
+.vw-text:hover {
+  color: #9b9b9b;
+}
+
 .text-white a,
 .text-white {
   color: #fff;

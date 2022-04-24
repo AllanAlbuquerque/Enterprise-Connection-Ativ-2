@@ -80,7 +80,11 @@
   color: #fff;
   width: 573px;
 }
-
+.informacao{
+  margin-top: -3rem !important;
+  margin-bottom: -3rem !important;
+  padding: 50px 0px;
+}
 .informacao .info-header {
   width: 500px;
 }
@@ -116,6 +120,9 @@
   padding: 10px;
   background-color: #433c6d;
   color: #fff;
+}
+.card-img-top{
+  height: 18rem;
 }
 @media only screen and (max-width: 760px) {
   .header-background {

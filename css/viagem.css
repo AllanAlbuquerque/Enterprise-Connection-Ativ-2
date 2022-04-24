@@ -1,5 +1,6 @@
 .viagem{
     background-color: #252b42;
+    padding-bottom: 0rem !important;
 }
 
 .viagemCarrossel{
@@ -10,7 +11,12 @@
     max-width: 500px;
     width: 100%;
 }
-
+.viagemCarrosselImg{
+    margin-left: 20%;
+}
+.mapa{
+    margin: 0 auto;
+}
 .media{
     margin-top: 100px;
     margin-bottom: 100px;
@@ -37,3 +43,11 @@
     width: 100%;
 
 }
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    padding: 10px;
+    background-color: #433c6d;
+    color: #fff;
+  }

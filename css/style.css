@@ -1,13 +1,57 @@
-.text-white a {
+/* CORES EM ALTO CONTRASTE */
+.contrast,
+.contrast nav,
+.contrast div,
+.contrast li,
+.contrast ol,
+.contrast header,
+.contrast footer,
+.contrast section,
+.contrast main,
+.contrast aside,
+.contrast article {
+  background: #000 !important;
+  color: #fff !important;
+}
+
+.contrast section {
+  border: 1px solid #fff;
+}
+
+.contrast {
+  padding: 1rem;
+}
+
+.contrast h1,
+.contrast h2,
+.contrast h3,
+.contrast h4,
+.contrast h5,
+.contrast h6,
+.contrast p,
+.contrast label,
+.contrast strong,
+.contrast em,
+.contrast cite,
+.contrast q,
+.contrast i,
+.contrast b,
+.contrast u,
+.contrast span {
+  color: #fff !important;
+}
+
+.text-white a,
+.text-white {
   color: #fff;
   text-decoration: none;
 }
 
-.header-content{
+.header-content {
   background-color: #0061ff;
 }
 
-.header-background{
+.header-background {
   background-image: url(../img/header-background.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -26,31 +70,30 @@
   width: 573px;
 }
 
-
-.informacao .info-header{
+.informacao .info-header {
   width: 500px;
 }
 
-.viagens{
-  background-color: rgb(210 207 207);;
+.viagens {
+  background-color: rgb(210 207 207);
 }
 
-.cards{
+.cards {
   max-width: 1000px;
   margin: auto;
   width: 100%;
 }
 
-.recebaNovidade{
+.recebaNovidade {
   height: 500px;
 }
 
-.recebaNovidade form{
+.recebaNovidade form {
   max-width: 700px;
   width: 100%;
 }
 
-.footer_background_color{
+.footer_background_color {
   background-color: #252b42;
 }
 
@@ -90,7 +133,7 @@
 }
 
 @media only screen and (min-width: 1440px) {
-  .header-background{
+  .header-background {
     background-image: url(../img/header-background-full-hd.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -99,5 +142,4 @@
     width: 100%;
     margin: auto;
   }
-  
 }

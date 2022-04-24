@@ -42,11 +42,11 @@
 }
 
 .vw-text-active {
-  color: #f2f2f2;
+  color: #f2f2f2 !important;
 }
 
 .vw-text:hover {
-  color: #9b9b9b;
+  color: #9b9b9b !important;
 }
 
 .text-white a,

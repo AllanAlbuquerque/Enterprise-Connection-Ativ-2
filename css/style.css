@@ -25,11 +25,19 @@
   text-decoration: none;
 }
 
-.header-content {
+.header-content{
+  background-color: #0061ff;
+}
+
+.header-background{
   background-image: url(../img/header-background.png);
   background-repeat: no-repeat;
   background-size: cover;
-  display: flex;
+  height: 800px;
+
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
 }
 
 .header-content main {
@@ -37,9 +45,32 @@
   align-items: center;
   flex-direction: column;
   color: #fff;
-  margin-top: 20rem;
+  width: 573px;
 }
 
+
+.informacao .info-header{
+  width: 500px;
+}
+
+.viagens{
+  background-color: rgb(210 207 207);;
+}
+
+.cards{
+  max-width: 1000px;
+  margin: auto;
+  width: 100%;
+}
+
+.recebaNovidade{
+  height: 500px;
+}
+
+.recebaNovidade form{
+  max-width: 700px;
+  width: 100%;
+}
 
 .footer_background_color{
   background-color: #252b42;

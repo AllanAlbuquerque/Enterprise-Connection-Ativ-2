@@ -17,7 +17,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
             <div class="container-xl">
-                <a class="navbar-brand" href="#">Gulliver Traveler</a>
+                <a class="navbar-brand dyn-font" href="#">Gulliver Traveler</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -26,16 +26,16 @@
                 <menu class="collapse navbar-collapse" id="navbarTogglerDemo01">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link disabled" aria-current="page" href="#">Home</a>
+                            <a class="nav-link disabled dyn-font" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Product</a>
+                            <a class="nav-link active dyn-font" href="#">Product</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active">Pricing</a>
+                            <a class="nav-link active dyn-font">Pricing</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active">Contact</a>
+                            <a class="nav-link active dyn-font">Contact</a>
                         </li>
                     </ul>
                     <div class="d-flex me-5">
@@ -44,12 +44,15 @@
                     </div>
                     <div class="d-flex align-items-center acessibilidade">
                         <div class="font me-4 text-white">
-                            <a href="#" onclick="increaseFont()">A+</a> | <a href="#" onclick="decreaseFont()">A-</a>
+                            <a href="#" class="dyn-font" onclick="increaseFont()">A+</a> | <a href="#" class="dyn-font"
+                                onclick="decreaseFont()">A-</a>
                         </div>
-                        <div class="d-flex align-items-center contraste text-white">
+                        <a href="#" accesskey="3" onclick="window.toggleContrast()" onkeydown="window.toggleContrast()"
+                            class="d-flex
+                            align-items-center contraste text-white dyn-font">
                             <img src="../img/contraste.png" class="me-2">
-                            Alto contraste
-                        </div>
+                            Alto contraste [Alt + 3]
+                        </a>
                     </div>
                 </menu>
             </div>
@@ -58,8 +61,8 @@
         <section class="header-content mb-5">
             <div class="header-background d-flex justify-content-center align-items-center">
                 <main class="d-flex flex-column justify-content-start align-items-start">
-                    <h1 class="font-xl mb-5">GULLIVER TRAVELER</h1>
-                    <p class="font-xs mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis,
+                    <h1 class="dyn-font mb-5">GULLIVER TRAVELER</h1>
+                    <p class="dyn-font mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis,
                         consequatur!
                         Nemo, odio amet
                         veniam
@@ -83,13 +86,13 @@
             <div class="viagemCarrossel container-lg d-flex">
                 <div class="viagemCarrosselContent d-flex flex-column justify-content-between">
                     <div class="viagemAvaliação">
-                        <h1>viagem 1</h1>
+                        <h1 class="dyn-font">viagem 1</h1>
                         <div class="estelas">
                             <img src="../img/valiacao.png" alt="valiação da viagem feito pelos os clientes.">
                         </div>
                     </div>
                     <div class="viagemText">
-                        <p>
+                        <p class="dyn-font">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris cursus cursus libero quis
                             pharetra.
                             Aliquam posuere ligula vel vehicula tincidunt. Orci varius natoque penatibus et magnis dis
@@ -118,10 +121,10 @@
 
         <section class="container-lg  media">
             <div class="headerMedia mb-5 m-auto">
-                <h1 class="text-center">
+                <h1 class="text-center dyn-font">
                     Designing Better Experience
                 </h1>
-                <p class="text-center">Problems trying to resolve the conflict between
+                <p class="text-center dyn-font">Problems trying to resolve the conflict between
                     the two major realms of Classical physics: Newtonian mechanics </p>
             </div>
             <div class="card-media pt-5 d-flex justify-content-between">
@@ -130,8 +133,8 @@
                 </div>
                 <div class="card-content d-flex flex-column justify-content-center">
                     <div class="card-title">
-                        <h2>Most trusted in our field</h2>
-                        <p>
+                        <h2 class="dyn-font">Most trusted in our field</h2>
+                        <p class="dyn-font">
                             Most calendars are designed for teams. Slate
                             is designed for freelancers who want a
                             simple way to plan their schedule.
@@ -139,18 +142,18 @@
                     </div>
                     <div>
                         <img src="../img/seila.png" alt="não sei qual é o icone">
-                        <h3>the quick fox jumps over the lazy
+                        <h3 class="dyn-font">the quick fox jumps over the lazy
                             dog</h3>
 
-                        <p>the quick fox jumps over the lazy
+                        <p class="dyn-font">the quick fox jumps over the lazy
                             dog</p>
                     </div>
                     <div>
                         <img src="../img/msg.png" alt="icone de messagem">
-                        <h3>the quick fox jumps over the lazy
+                        <h3 class="dyn-font">the quick fox jumps over the lazy
                             dog</h3>
 
-                        <p>the quick fox jumps over the lazy
+                        <p class="dyn-font">the quick fox jumps over the lazy
                             dog</p>
                     </div>
                 </div>

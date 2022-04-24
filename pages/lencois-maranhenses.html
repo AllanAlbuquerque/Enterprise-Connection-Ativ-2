@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <link rel="stylesheet" href="../css/viagem.css">
+    <title>Gulliver Traveller</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-xl">
+                <a class="dyn-font navbar-brand" href="#">Gulliver Traveler</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <menu class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link  dyn-font" aria-current="page" href="../index.html">Home</a>
+                        </li>
+
+                    </ul>
+
+                    <div class="d-flex align-items-center acessibilidade">
+                        <div class="font me-4 text-white">
+                            <a href="#" class="dyn-font" onclick="increaseFont()">A+</a> | <a href="#" class="dyn-font"
+                                onclick="decreaseFont()">A-</a>
+                        </div>
+                        <a href="#" accesskey="3" onclick="window.toggleContrast()" onkeydown="window.toggleContrast()"
+                            class="d-flex
+                            align-items-center contraste text-white dyn-font">
+                            <img src="../img/contraste.png" class="me-2">
+                            Alto contraste [Alt + 3]
+                        </a>
+                    </div>
+                </menu>
+            </div>
+        </nav>
+
+        <section class="header-content" style="background-color: #252b42;">
+            <div class="header-background d-flex justify-content-center align-items-center">
+                <main class="d-flex flex-column justify-content-start align-items-start">
+                    <h1 class="dyn-font">GULLIVER TRAVELER</h1>
+                    <p class="dyn-font">A cada busca, a <strong>GULLIVER</strong> pesquisa centenas de sites de viagem
+                        para mostrar tudo que os viajantes precisam para encontrar as passagens aéreas, hotéis, carros
+                        de aluguel e pacotes de viagem ideais.</p>
+
+                </main>
+
+                <aside>
+                    <img class="img-fluid" src="../img/logo-header.png" alt="Logo Gulliver Traveler">
+                </aside>
+            </div>
+        </section>
+
+    </header>
+
+    <main>
+
+        <section class="viagem text-white py-5">
+            <div class="viagemCarrossel container-lg d-flex">
+                <div class="viagemCarrosselContent d-flex flex-column">
+                    <div class="viagemAvaliação">
+                        <h1 class="dyn-font">Lençóis Maranhenses - MA</h1>
+                        <div class="estelas">
+                            <img src="../img/valiacao.png" alt="valiação da viagem feito pelos os clientes.">
+                        </div>
+                    </div>
+                    <div class="viagemText">
+                        <p class="dyn-font">
+
+                            O Parque Nacional dos Lençóis Maranhenses é o destino perfeito para aqueles que buscam
+                            aventura e contemplação da natureza!!
+                            Caminhar sobre as areias brancas do maior campo de dunas do Brasil, se refrescar em lagoas
+                            de água cristalina e observar o pôr-do-sol são experiências únicas que você levará para o
+                            resto da vida.
+                            Tudo isso com a emoção de um passeio fora de estrada em veículos 4x4 credenciados
+                            especialmente adaptados para percorrer o terreno arenoso e alagado da restinga dos Lençóis
+                            Maranhenses. Aqueles que preferem caminhadas longas e interação com comunidades
+                            tradicionais, podem ainda se aventurar a atravessar o campo de dunas e ter a experiência de
+                            pernoitar nos oásis do “deserto brasileiro”.
+
+                        </p>
+
+                    </div>
+                </div>
+                <div class="viagemCarrosselImg">
+                    <img src="../img/maranhao.jpg" alt="foto da praia de Maragogi" style="max-width: 600px;">
+                    <!--onde fica o Carrossel-->
+                </div>
+            </div>
+
+
+        </section>
+
+        <section class="container-lg  media">
+            <div class="headerMedia mb-5 m-auto">
+                <h1 class="text-center dyn-font">
+                    O que fazer nos Lençóis Maranhenses - MA
+                </h1>
+            </div>
+            <div class="card-media pt-5 d-flex justify-content-between">
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/DPJo0Nd8ixM"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <div class="mapa">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.063504718316!2d-43.13059568464033!3d-2.4859331388138184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7f19ee15e39be5f%3A0x2d2895d0d57e9beb!2sParque%20Nacional%20dos%20Len%C3%A7%C3%B3is%20Maranhenses!5e0!3m2!1spt-BR!2sbr!4v1650836267523!5m2!1spt-BR!2sbr"
+                            width="560" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="card-content d-flex flex-column justify-content-center">
+                    <div class="card-title">
+                        <h2 class="dyn-font">1. Quando Ir </h2>
+                        <p class="dyn-font">
+                            O litoral oriental do Maranhão possui duas estações características ao longo do ano. A
+                            chuvosa, de fevereiro a maio, e a seca, de junho a janeiro. Após a estação chuvosa o Parque
+                            Nacional dos Lençóis Maranhenses apresenta seu mais belo cenário, pois as lagoas
+                            interdunares estão cheias.
+
+                            Conforme o período seco avança as lagoas secam pouco a pouco, chegando em novembro com o
+                            nível bem baixo. Mas é bom deixar claro, isso tudo depende do regime de chuva do ano,
+                            portanto, é sempre bom buscar informações com a administração do Parque Nacional ou com o
+                            receptivo local.
+
+                            O melhor período para visitar o Parque Nacional dos Lençóis Maranhenses vai de maio a
+                            setembro, mas a unidade está aberta a visitação o ano inteiro, de segunda a segunda, das
+                            08:00 às 18:00.
+                        </p>
+                    </div>
+                    <div>
+                        <h3 class="dyn-font">2. INGRESSOS</h3>
+                        <p class="dyn-font">
+                            Atualmente não há cobrança de ingresso pelo ICMBio. As agencias e operadores de turismo credenciados junto ao parque cobram valores referentes aos seus serviços.
+                            
+                            Lista de condutores de veículos autorizados <a href="https://www.icmbio.gov.br/parnalencoismaranhenses/images/stories/visitacao/Autorizados_condutoresdeveiculos_2021.pdf"> aqui.</a>
+                            
+                            Mais informações podem ser obtidas pelo telefone (98) 3349-1267, ou e-mail: pnlm@icmbio.gov.br
+                        </p>
+                    </div>
+                    <div>
+                        <h3 class="dyn-font">3. Circuito da lagoa Azul -</h3>
+                        <p class="dyn-font">
+                            Trata-se do atrativo mais visitado da Unidade de Conservação. Após 12 Km de trilhas na restinga, o passeio segue pelo campo de dunas em uma trilha de aproximadamente 02 km. Ao longo do trajeto o visitante poderá visitar a lagoa da Preguiça, lagoa da Esmeralda, lagoa Azul e a lagoa do Peixe, a única perene e que se mantém com água ao longo de todo o ano. Este atrativo é o único onde há permissão para acesso em veículo tracionado até os limites da lagoa da Preguiça, mas apenas para visitantes com dificuldade de locomoção e mediante comunicação e obtenção de autorização junto à administração do Parque Nacional.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+    <footer class="footer_background_color  text-white">
+
+        <!-- Copyright -->
+        <div class="container-fluid  py-4">
+            <div class="container-xl d-flex d-flex justify-content-center">
+                <span>Projeto Gulliver | Todos os direitos reservados &copy; </span>
+
+            </div>
+        </div>
+        <!-- Copyright -->
+        <!-- ir ao topo -->
+        <a id="back-to-top" href="#" class="btn btn-lg back-to-top" role="button"><i class="fas fa-chevron-up"></i></a>
+    </footer>
+    <!-- Footer -->
+
+    <!-- Leitor Libras -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <script src="./js/script.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 50) {
+                    $('#back-to-top').fadeIn();
+                } else {
+                    $('#back-to-top').fadeOut();
+                }
+            });
+            // scroll body to 0px on click
+            $('#back-to-top').click(function () {
+                $('body,html').animate({
+                    scrollTop: 0
+                }, 400);
+                return false;
+            });
+        });
+    </script>
+</body>
+
+</html>

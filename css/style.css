@@ -77,12 +77,49 @@
 }
 
 @media only screen and (max-width: 760px) {
-  .header-content {
+  .header-background {
     flex-direction: column;
   }
 
-  .header-content main {
+  .header-background main {
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
+
+  .header-content main {
+    width: unset;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center;
+  }
+
+  .informacao div {
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+
+  .info-header {
+    width: unset !important;
+  }
+
+  .viagens .cards {
+    justify-content: center !important;
+  }
+
+  footer > section {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .header-background{
+    background-image: url(../img/header-background-full-hd.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1012px;
+    max-width: 100%;
+    width: 100%;
+    margin: auto;
+  }
+  
 }

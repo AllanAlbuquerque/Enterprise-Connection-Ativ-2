@@ -1,53 +1,71 @@
-.viagem{
-    background-color: #252b42;
-    padding-bottom: 0rem !important;
+.viagem {
+  background-color: #252b42;
+  padding-bottom: 0rem !important;
 }
 
-.viagemCarrossel{
-    height:550px;
+.viagemCarrossel {
+  height: 550px;
 }
 
-.viagemCarrosselImg, .viagemCarrosselContent{
-    max-width: 500px;
-    width: 100%;
+.viagemCarrosselImg,
+.viagemCarrosselContent {
+  max-width: 500px;
+  width: 100%;
 }
-.viagemCarrosselImg{
-    margin-left: 20%;
+.viagemCarrosselImg {
+  margin-left: 20%;
 }
-.mapa{
-    margin: 0 auto;
+.mapa {
+  margin: 0 auto;
 }
-.media{
-    margin-top: 100px;
-    margin-bottom: 100px;
+.media {
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
-.headerMedia{
-    width: 600px;
-    max-width: 100%;
-    height: 100px;
+.headerMedia {
+  width: 600px;
+  max-width: 100%;
+  height: 100px;
 }
 
 .video {
-    max-width: 592px;
-    width: 100%;
-    height: 442px;
+  max-width: 592px;
+  width: 100%;
+  height: 442px;
 }
 
-.video img{
-    width: 100%;
+.video img {
+  width: 100%;
 }
 
-.card-content div{
-    max-width: 500px;
-    width: 100%;
-
+.card-content div {
+  max-width: 500px;
+  width: 100%;
 }
 .back-to-top {
-    position: fixed;
-    bottom: 25px;
-    right: 25px;
-    padding: 10px;
-    background-color: #433c6d;
-    color: #fff;
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  padding: 10px;
+  background-color: #433c6d;
+  color: #fff;
+}
+
+@media only screen and (max-width: 760px) {
+  .video {
+    height: unset !important;
+    margin-bottom: 1rem;
   }
+
+  .card-media {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .viagemCarrossel {
+      flex-direction: column;
+      height: unset !important;
+      align-items: center;
+  }
+}

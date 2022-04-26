@@ -15,6 +15,7 @@
 .viagemCarrosselImg {
   margin-left: 20%;
 }
+
 .mapa {
   margin: 0 auto;
 }
@@ -43,6 +44,19 @@
   max-width: 500px;
   width: 100%;
 }
+
+/* Onde ficar */
+.hoteis {
+  background-color: #252b42;
+}
+.hoteis h1 {
+  color: #fff;
+}
+.hoteis a {
+  background-color: #252b42;
+  border: #252b42;
+}
+
 .back-to-top {
   position: fixed;
   bottom: 25px;

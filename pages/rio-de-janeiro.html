@@ -99,8 +99,33 @@
                     </div>
                 </div>
                 <div class="viagemCarrosselImg">
-                    <img src="../img/rj.jpg" alt="">
-                    <!--onde fica o Carrossel-->
+                    <div id="carrosselIndicadores" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carrosselIndicadores" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carrosselIndicadores" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carrosselIndicadores" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active zoom" id="zoom">
+                            <img src="../img/rj.jpg"  class="d-block" style="max-width: 600px" alt="foto do cristo redentor com vista a cidade" >
+                          </div>
+                          <div class="carousel-item zoom" id="zoom">
+                            <img src="../img/rj2.jpg" class="d-block" style="max-width: 600px" alt="calçadão de Copacabana">
+                          </div>
+                          <div class="carousel-item zoom" id="zoom">
+                            <img src="../img/rj3.jpg" class="d-block" style="max-width: 600px" alt="praia de Copacabana">
+                          </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carrosselIndicadores" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carrosselIndicadores" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Próximo</span>
+                        </button>
+                      </div>
+                    </div>                
+                </div>
                 </div>
             </div>
 
@@ -166,6 +191,40 @@
                 </div>
             </div>
 
+        </section>
+
+        <section class="hoteis py-5 ">
+            <div class="headerMedia mb-5 m-auto">
+                <h1 class="text-center dyn-font">
+                    Onde ficar?
+                </h1>
+            </div>
+            <div class="cards my-5 d-flex flex-row justify-content-between flex-wrap ">
+                <div class="card mb-5" style="width: 20rem;">
+                    <img src="../img/hotel_AtlanticoPrime.jpg" class="card-img-top" alt="Interior do Hotel Atlantico Prime">
+                    <div class="card-body">
+                        <h5 class="card-title dyn-font">Hotel Atlantico Prime</h5>
+                        <p class="card-text dyn-font">O Hotel Atlantico Prime está situado no centro do Rio de Janeiro e oferece acomodação com restaurante, estacionamento privativo, academia e um bar. Este hotel 4 estrelas oferece Wi-Fi gratuito e serviço de concierge.</p>
+                        <a href="http://www.booking.com/Share-DUQooM" class="btn btn-primary" target="_blank">Reserve</a>
+                    </div>
+                </div>
+                <div class="card mb-5" style="width: 20rem;">
+                    <img src="../img/hotel_RoyalRioPalaceHotel.jpg" class="card-img-top" alt="Área interna do Royal Rio Palace Hotel">
+                    <div class="card-body">
+                        <h5 class="card-title dyn-font">Royal Rio Palace Hotel</h5>
+                        <p class="card-text dyn-font">Com uma excelente localização, a 300 m da badalada Praia de Copacabana, o Royal Rio dispõe de uma piscina na cobertura panorâmica e um bar de coquetéis, com buffet de café da manhã disponível de cortesia</p>
+                        <a href="http://www.booking.com/Share-djuLT0" class="btn btn-primary" target="_blank">Reserve</a>
+                    </div>
+                </div>
+                <div class="card mb-5" style="width: 20rem;">
+                    <img src="../img/hotel_AmericasBarraHotel.jpg" class="card-img-top" alt="foto do Américas Barra Hotel">
+                    <div class="card-body">
+                        <h5 class="card-title dyn-font">Américas Barra Hotel</h5>
+                        <p class="card-text dyn-font">O Americas Barra Hotel fica no bairro da Barra da Tijuca, no Rio de Janeiro, a 9,2 km do Centro de Convenções Riocentro. Sua decoração é moderna e seus quartos são completos, com recepção 24 horas e serviço de quarto.</p>
+                        <a href="http://www.booking.com/Share-bey0hr" class="btn btn-primary" target="_blank">Reserve</a>
+                    </div>
+                </div>
+            </div>
         </section>
 
     </main>

@@ -99,8 +99,27 @@
                     </div>
                 </div>
                 <div class="viagemCarrosselImg">
-                    <img src="../img/maranhao.jpg" alt="foto da praia de Maragogi" style="max-width: 600px;">
-                    <!--onde fica o Carrossel-->
+                    <div id="carrosselIndicadores" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carrosselIndicadores" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carrosselIndicadores" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <figure class="carousel-item active" id="zoom_area">
+                            <img src="../img/maranhao.jpg" class="d-block" style="max-width: 600px" alt="foto da praia de Maragogi" id="zoom_img">
+                          </figure>
+                          <figure class="carousel-item zoom" id="zoom">
+                            <img src="../img/maranhao2.jpg" class="d-block" style="max-width: 600px" alt="foto dos lençois maranhenses">
+                          </figure>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carrosselIndicadores" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carrosselIndicadores" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Próximo</span>
+                        </button>
+                      </div>
                 </div>
             </div>
 
@@ -173,7 +192,40 @@
                     </div>
                 </div>
             </div>
+        </section>
 
+        <section class="hoteis py-5 ">
+            <div class="headerMedia mb-5 m-auto">
+                <h1 class="text-center dyn-font">
+                    Onde ficar?
+                </h1>
+            </div>
+            <div class="cards my-5 d-flex flex-row justify-content-between flex-wrap ">
+                <div class="card mb-5" style="width: 20rem;">
+                    <img src="../img/hotel_riopreguicas.jpg" class="card-img-top" alt="foto do hotel Rio Preguiças">
+                    <div class="card-body">
+                        <h5 class="card-title dyn-font">Hotel Rio Preguiças</h5>
+                        <p class="card-text dyn-font">Situado em Barreirinhas, o Hotel Rio Preguiças oferece acomodações com lounge compartilhado e Wi-Fi gratuito, bem como estacionamento privativo gratuito. </p>
+                        <a href="http://www.booking.com/Share-oe3yN5" class="btn btn-primary" target="_blank">Reserve</a>
+                    </div>
+                </div>
+                <div class="card mb-5" style="width: 20rem;">
+                    <img src="../img/hotel_pousadaDoPorto.jpg" class="card-img-top" alt="foto dentro da Pousada do Porto">
+                    <div class="card-body">
+                        <h5 class="card-title dyn-font">Pousada Do Porto</h5>
+                        <p class="card-text dyn-font">Oferece acomodações com lounge compartilhado, Wi-Fi gratuito em todas as áreas e estacionamento privativo de cortesia. Recepção de 24 horas, balcão de turismo e depósito para bagagem. </p>
+                        <a href="http://www.booking.com/Share-FhoK0b" class="btn btn-primary" target="_blank">Reserve</a>
+                    </div>
+                </div>
+                <div class="card mb-5" style="width: 20rem;">
+                    <img src="../img/hotel_preguicasRiverside.jpg" class="card-img-top" alt="foto do Preguiça's Riverside Hotel">
+                    <div class="card-body">
+                        <h5 class="card-title dyn-font">Preguiça's Riverside Hotel</h5>
+                        <p class="card-text dyn-font">Localizado em Barreirinhas, a 1,7 km do cais, o Preguica's Riverside Hotel oferece acomodações com piscina sazonal ao ar livre, estacionamento privativo gratuito, jardim e terraço.</p>
+                        <a href="http://www.booking.com/Share-n9DSPD" class="btn btn-primary" target="_blank">Reserve</a>
+                    </div>
+                </div>
+            </div>
         </section>
 
     </main>

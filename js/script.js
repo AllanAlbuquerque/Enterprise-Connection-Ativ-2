@@ -74,3 +74,6 @@ function updateViewContrast() {
 function toogleContrast() {
   this.setState(!this.currentState);
 }
+
+// ZOOM NAS IMAGENS
+

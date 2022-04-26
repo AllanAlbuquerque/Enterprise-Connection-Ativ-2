@@ -102,8 +102,28 @@
                     </div>
                 </div>
                 <div class="viagemCarrosselImg">
-                    <img src="../img/maragogi.jpg" alt="foto da praia de Maragogi" style="max-width: 600px;">
-                    <!--onde fica o Carrossel-->
+                    <div id="carrosselIndicadores" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carrosselIndicadores" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carrosselIndicadores" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active zoom" id="zoom">
+                            <img src="../img/maragogi.jpg"  class="d-block" style="max-width: 600px" alt="foto da praia de Maragogi" >
+                          </div>
+                          <div class="carousel-item zoom" id="zoom">
+                            <img src="../img/maragogi2.jpg" class="d-block" style="max-width: 600px" alt="piscinas naturais de Maragogi">
+                          </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carrosselIndicadores" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carrosselIndicadores" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Próximo</span>
+                        </button>
+                      </div>
+                    </div>                
                 </div>
             </div>
 
@@ -177,6 +197,40 @@
                 </div>
             </div>
 
+        </section>
+
+        <section class="hoteis py-5 ">
+            <div class="headerMedia mb-5 m-auto">
+                <h1 class="text-center dyn-font">
+                    Onde ficar?
+                </h1>
+            </div>
+            <div class="cards my-5 d-flex flex-row justify-content-between flex-wrap ">
+                <div class="card mb-5" style="width: 20rem;">
+                    <img src="../img/hotel_pousadaCosteiraDaBarra.jpg" class="card-img-top" alt="piscina na Pousada Costeira da Barra">
+                    <div class="card-body">
+                        <h5 class="card-title dyn-font">Pousada Costeira da Barra</h5>
+                        <p class="card-text dyn-font">Esta acomodação fica a 2 minutos a pé da praia. Dispõe de piscina ao ar livre, estacionamento privativo grátis, lounge compartilhado e jardim, oferece terraço ao ar livre, recepção 24 horas e Wi-Fi grátis em todos os ambientes.</p>
+                        <a href="http://www.booking.com/Share-RqWmFs" class="btn btn-primary" target="_blank">Reserve</a>
+                    </div>
+                </div>
+                <div class="card mb-5" style="width: 20rem;">
+                    <img src="../img/hotel_PraiaDourada.jpg" class="card-img-top" alt="foto da piscina ao ar livro do Hotel Praia Dourada">
+                    <div class="card-body">
+                        <h5 class="card-title dyn-font">Hotel Praia Dourada</h5>
+                        <p class="card-text dyn-font">Situado na Praia de Burgalhau, em Maragogi, o Hotel Praia Dourada oferece quartos com ar-condicionado, varanda e rede. As comodidades incluem piscina ao ar livre, quadra de tênis e balcão de turismo. </p>
+                        <a href="http://www.booking.com/Share-AdUlcA" class="btn btn-primary" target="_blank">Reserve</a>
+                    </div>
+                </div>
+                <div class="card mb-5" style="width: 20rem;">
+                    <img src="../img/hotel_AreiasBelas.jpg" class="card-img-top" alt="foto do Hotel Areias Belas">
+                    <div class="card-body">
+                        <h5 class="card-title dyn-font">Hotel Areias Belas</h5>
+                        <p class="card-text dyn-font">Idealmente localizado em frente à praia, a apenas 500 metros do centro do vilarejo de Maragogi, este hotel encantador oferece quartos com varanda e vista do mar. A propriedade dispõe de piscina, restaurante e bar.</p>
+                        <a href="http://www.booking.com/Share-gCAZlj" class="btn btn-primary" target="_blank">Reserve</a>
+                    </div>
+                </div>
+            </div>
         </section>
 
     </main>
